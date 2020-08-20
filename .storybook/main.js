@@ -1,6 +1,6 @@
 module.exports = {
   "stories": [
-    "../components/LogoComp/story/index.js",
+    "../components/**/*.stories.js",
   ],
   "addons": [
     "@storybook/addon-links",

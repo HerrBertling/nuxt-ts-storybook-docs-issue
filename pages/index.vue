@@ -1,28 +1,10 @@
 <template>
   <div class="container">
     <div>
-      <LogoComp msg="Yo!" />
+      <MyButton href="https://storybook.js.org/">Click here!</MyButton>
       <h1 class="title">
         nuxt-ts-storybook-docs
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
     </div>
   </div>
 </template>
