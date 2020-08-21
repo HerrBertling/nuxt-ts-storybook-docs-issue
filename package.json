@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^1.0.0",
+    "@storybook/addon-knobs": "^6.0.16",
     "nuxt": "^2.14.0",
     "vue-class-component": "^7.2.5",
     "vue-property-decorator": "^9.0.0"
