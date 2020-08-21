@@ -15,10 +15,9 @@ export function normal(): Component {
       // naming a prop the same way the component's prop is named leads to
       // a broken state where the property value is not passed to the component
       variant: {
-        default: select('Variant',['primary', 'secondary', 'text'], 'primary',),
+        default: select('Variant', ['primary', 'secondary', 'text'], 'primary'),
       },
     },
-    template:
-      '<MyButton :disabled="disabled" :variant="variant">Button</MyButton>',
+    template: '<MyButton :variant="variant">Button</MyButton>',
   }
 }
